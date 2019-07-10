@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Twitter-Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./content.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="./layout.css">
+</head>
+
+<body>
+    <div id="wrap" class="row">
+        <div id="sidebar" class="col-3">
+            <h2>Hashtags</h2>
+            <div id="hashtags">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active">
+                        #trump
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">#latesttrumptweets
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">#moretrump</button>
+                    <button type="button" class="list-group-item list-group-item-action">#muricatrump</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="col-6">
+            <h2>Twitter</h2>
+            <div id="newmessage">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What's happening?"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" id="button-addon2">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="messages">
+                <div class="message">
+                    <div class="card">
+                        <div class="card-header">
+                            Username
+                        </div>
+                        <div class="card-body mg">
+                            <h5 class="card-title">#Hashtag</h5>
+                            <p class="card-text">text body</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="card">
+                        <div class="card-header">
+                            Username
+                        </div>
+                        <div class="card-body mg">
+                            <h5 class="card-title">#Hashtag</h5>
+                            <p class="card-text">text body</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <div class="card">
+                        <div class="card-header">
+                            Username
+                        </div>
+                        <div class="card-body mg">
+                            <h5 class="card-title">#Hashtag</h5>
+                            <p class="card-text">text body</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="placeholder" class="col-3">
+            <h2>Placeholder</h2>
+        </div>
+    </div>
+</body>
+
+</html>
